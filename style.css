@@ -1,0 +1,49 @@
+.header {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  display: table-cell;
+  vertical-align: middle;
+  background-image: url('images/hero.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero_text {
+  margin: auto;
+  text-align: center;
+  width: 40vw;
+  padding: 5vw;
+  font-family: fantasy;
+}
+
+.hero_text_heading {
+  font-size: 8vw;
+  color: ivory;
+}
+
+.hero_text_body {
+  padding-top: 1vw;
+  font-size: 2vw;
+  color: goldenrod;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero_text {
+    width: 40vw;
+  }
+
+  .hero_text_heading {
+    font-size: 12vw;
+  }
+
+  .hero_text_body {
+    font-size: 4vw;
+  }
+}
