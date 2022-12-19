@@ -24,14 +24,20 @@
 }
 
 .hero_text_heading {
-  font-size: 8vw;
+  font-size: 12vw;
   color: ivory;
 }
 
 .hero_text_body {
   padding-top: 1vw;
-  font-size: 2vw;
+  font-size: 4vw;
   color: goldenrod;
+}
+
+.text_body {
+  padding-top: 1vw;
+  font-size: 2vw;
+  color: ivory;
 }
 
 @media only screen and (max-width: 800px) {
@@ -45,5 +51,8 @@
 
   .hero_text_body {
     font-size: 4vw;
+  }
+  .text_body {
+      font-size: 2vw;
   }
 }
